@@ -1,0 +1,1 @@
+./bin/s3cmd/s3cmd ls s3://emenar.com/gitevery/$@ --config=s3info/s3cmd_config.txt

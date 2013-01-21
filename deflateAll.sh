@@ -1,0 +1,1 @@
+./bin/s3cmd/s3cmd upload . `cat s3info/s3annex_config.txt` --config=s3info/s3cmd_config.txt --recursive --parallel --workers `cat s3info/s3worker_config.txt` -v --flatten --force --include-from s3info/blob_includes.txt --exclude-from s3info/blob_excludes.txt --deflate
