@@ -1,0 +1,1 @@
+./bin/s3cmd/s3cmd ls `cat s3info/s3annex_config.txt` --config=s3info/s3cmd_config.txt
