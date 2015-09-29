@@ -1,5 +1,5 @@
 [default]
-access_key = AKIAJNDPECF3ILK7RQYQ
+access_key = access_key
 bucket_location = US
 cloudfront_host = cloudfront.amazonaws.com
 cloudfront_resource = /2010-06-01/distribution
